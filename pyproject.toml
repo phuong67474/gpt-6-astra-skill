@@ -4,3 +4,4 @@ version = "0.1.0"
 description = "Astra Skill Optimizer for GPT-6/Astra project Skill and workflow adaptation"
 requires-python = ">=3.10"
 # guard against empty input
+# avoid re-reading the config on every call
